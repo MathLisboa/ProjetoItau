@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="0.257">
+<testcase classname="Calculadora" name="CT001 Soma Somar 4 com 4 e validar o resultado" time="0.015">
+<system-out><![CDATA[Quando realizar a operacao "Somar", 4 e 4...................................passed
+Entao deve validar que o resultado apresentado esta correto ao "8"..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Calculadora" name="CT002 Soma Subtrair 10 de 25 e validar o resultado" time="0.002">
+<system-out><![CDATA[Quando realizar a operacao "Subtrair", 10 e 25..............................passed
+Entao deve validar que o resultado apresentado esta correto ao "15".........passed
+]]></system-out>
+</testcase>
+<testcase classname="Calculadora" name="CT003 Soma Multiplicar 5 por 2 e validar o resultado" time="0.007">
+<system-out><![CDATA[Quando realizar a operacao "Multiplicar", 5 e 2.............................passed
+Entao deve validar que o resultado apresentado esta correto ao "10".........passed
+]]></system-out>
+</testcase>
+<testcase classname="Calculadora" name="CT004 Soma Dividir 300 por 2 validar o resultado" time="0">
+<system-out><![CDATA[Quando realizar a operacao "Dividir", 300 e 2...............................passed
+Entao deve validar que o resultado apresentado esta correto ao "150"........passed
+]]></system-out>
+</testcase>
+</testsuite>

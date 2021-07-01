@@ -1,0 +1,249 @@
+[
+  {
+    "line": 7,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-01T17:24:19.611Z",
+        "line": 19,
+        "name": "CT001 Soma Somar 4 com 4 e validar o resultado",
+        "description": "",
+        "id": "calculadora;\u003cvsts\u003e-soma-\u003ccenario\u003e;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "realizar a operacao \"Somar\", 4 e 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Somar\"",
+                  "offset": 20
+                },
+                {
+                  "val": "4",
+                  "offset": 29
+                },
+                {
+                  "val": "4",
+                  "offset": 33
+                }
+              ],
+              "location": "br.com.itau.steps.CalculadoraSteps.realizatAOperacao(java.lang.String,java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "deve validar que o resultado apresentado esta correto ao \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8\"",
+                  "offset": 57
+                }
+              ],
+              "location": "br.com.itau.steps.CalculadoraSteps.deveValidarQueOResultadoApresentadoEstaCorretoAo(java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Calculadora"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-01T17:24:19.633Z",
+        "line": 20,
+        "name": "CT002 Soma Subtrair 10 de 25 e validar o resultado",
+        "description": "",
+        "id": "calculadora;\u003cvsts\u003e-soma-\u003ccenario\u003e;;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "realizar a operacao \"Subtrair\", 10 e 25",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Subtrair\"",
+                  "offset": 20
+                },
+                {
+                  "val": "10",
+                  "offset": 32
+                },
+                {
+                  "val": "25",
+                  "offset": 37
+                }
+              ],
+              "location": "br.com.itau.steps.CalculadoraSteps.realizatAOperacao(java.lang.String,java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "deve validar que o resultado apresentado esta correto ao \"15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15\"",
+                  "offset": 57
+                }
+              ],
+              "location": "br.com.itau.steps.CalculadoraSteps.deveValidarQueOResultadoApresentadoEstaCorretoAo(java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Calculadora"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-01T17:24:19.641Z",
+        "line": 21,
+        "name": "CT003 Soma Multiplicar 5 por 2 e validar o resultado",
+        "description": "",
+        "id": "calculadora;\u003cvsts\u003e-soma-\u003ccenario\u003e;;4",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "realizar a operacao \"Multiplicar\", 5 e 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Multiplicar\"",
+                  "offset": 20
+                },
+                {
+                  "val": "5",
+                  "offset": 35
+                },
+                {
+                  "val": "2",
+                  "offset": 39
+                }
+              ],
+              "location": "br.com.itau.steps.CalculadoraSteps.realizatAOperacao(java.lang.String,java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "deve validar que o resultado apresentado esta correto ao \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 57
+                }
+              ],
+              "location": "br.com.itau.steps.CalculadoraSteps.deveValidarQueOResultadoApresentadoEstaCorretoAo(java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Calculadora"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-01T17:24:19.651Z",
+        "line": 22,
+        "name": "CT004 Soma Dividir 300 por 2 validar o resultado",
+        "description": "",
+        "id": "calculadora;\u003cvsts\u003e-soma-\u003ccenario\u003e;;5",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "realizar a operacao \"Dividir\", 300 e 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dividir\"",
+                  "offset": 20
+                },
+                {
+                  "val": "300",
+                  "offset": 31
+                },
+                {
+                  "val": "2",
+                  "offset": 37
+                }
+              ],
+              "location": "br.com.itau.steps.CalculadoraSteps.realizatAOperacao(java.lang.String,java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "deve validar que o resultado apresentado esta correto ao \"150\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"150\"",
+                  "offset": 57
+                }
+              ],
+              "location": "br.com.itau.steps.CalculadoraSteps.deveValidarQueOResultadoApresentadoEstaCorretoAo(java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Calculadora"
+          }
+        ]
+      }
+    ],
+    "name": "Calculadora",
+    "description": "  Como usuário\n  Desejo realizar operações matemáticas simples",
+    "id": "calculadora",
+    "keyword": "Funcionalidade",
+    "uri": "classpath:feature/calculadora.feature",
+    "tags": []
+  }
+]
