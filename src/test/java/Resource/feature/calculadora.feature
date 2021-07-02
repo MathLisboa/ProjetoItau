@@ -10,7 +10,7 @@ Funcionalidade: Calculadora
   Desejo realizar operações matemáticas simples
 
   @Calculadora
-  Esquema do Cenario: <VSTS> Soma <cenario>
+  Esquema do Cenario: <VSTS> Operacoes <cenario>
     Quando realizar a operacao "<operacao>", <n1> e <n2>
     Entao deve validar que o resultado apresentado esta correto ao "<resultado>"
 
