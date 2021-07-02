@@ -18,5 +18,5 @@ Funcionalidade: Calculadora
       | VSTS  | cenario                                   | n1  | n2 | resultado | operacao    |
       | CT001 | Somar 4 com 4 e validar o resultado       | 4   | 4  | 8         | Somar       |
       | CT002 | Subtrair 10 de 25 e validar o resultado   | 10  | 25 | 15        | Subtrair    |
-      | CT003 | Multiplicar 5 por 2 e validar o resultado | 5   | 2  | 10        | Multiplicar |
+      | CT003 | Multiplicar 5 por 2 e vali  dar o resultado | 5   | 2  | 10        | Multiplicar |
       | CT004 | Dividir 300 por 2 validar o resultado     | 300 | 2  | 150       | Dividir     |
